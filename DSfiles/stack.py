@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-class stack:
+#!/usr/bin/env python3 
+class Stack:
 	def __init__(self):
 		self.elements = []
 
@@ -17,14 +17,3 @@ class stack:
 
 	def size(self):
 		return len(self.elements)
-
-obj = stack()
-obj.push(3)
-obj.push(4)
-obj.push(5)
-print(obj.peek())
-obj.pop()
-print(obj.peek())
-print("Empty?",obj.isEmpty())
-print("Size: ",obj.size())
-
